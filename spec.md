@@ -1,51 +1,53 @@
 # Draft News Exchange Specification
 
-
-## Introduction
+### Introduction
 
 To be strictly accurate, the news business isn’t facing "a crisis" these days. It has <em>crises</em>, plural.
 
-Start with sagging revenues and layoffs at major news organizations due to disruption of their traditional advertising model by Google and Facebook. Then there’s waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online. And, of course, there’s always the parlor game of critiquing the quality of daily coverage in general — whether journalists are flat-out missing certain stories, or could cover some more thoroughly, whether they’re biased against certain sources or topics, and so on.
+Start with sagging revenues and layoffs at major news organizations due to disruption of their traditional advertising model by Google and Facebook. Then there’s waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online. And, of course, there’s always the parlor game of critiquing the quality of daily coverage in general. Are journalists flat-out missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.
 
-This document represents an attempt at solving journalism's economic problems in particular. In doing so, we've written some preliminary requirements for a better exchange that uses the Dispatch token as a means of exchange among news consumers and providers. 
+This document represents an attempt at solving the economic piece of this mess, assuming that it in particular is the root of most of the other issues. Just solve the problem of making journalism commercially viable again, and the whole ecosystem improves significantly in all sorts of ways. 
 
-Crucially, this proposed solution uses the blockchain proper for two things:
+Our proposed vehicle for doing this is a distributed news exchange built using the Dispatch crypto token. This exchange should have the following features: 
 
-- Uses the blockchain to verify user identity persistently across news sites.
+- <strong>Uses blockchain for managing user identity and payment transfer.</strong> including micro increments if necessary.
+- <strong>Runs news organizations' business logic off-blockchain.</strong> This is accomplished via Dispatch's Distributed Artifact Network. There may be off-the-shelf modules for implementation of, say, a paywall or an ad model or to sell event tickets.
+- <strong>Works for a range of users and news providers.</strong> 
 
-- Uses the blockchain to transact payments for news, including micro increments where necessary.
+What's out of scope: 
 
-- Stores other business-model logic off-blockchain using the Dispatch Artifact Network. 
+- Hosting news content.
+- Managing user comments or feedback.
+- Managing newsroom governance.
 
 
 
-This approach reflects some general principles:
 
-- Economics are at the root of all other woes.
+
+((Diagram))
+
+
+
+
+
+
+
+
+### Why journalism must function commercially
+
+$1.50...
+$50 in Europe...
+Even the higher spend doesn't get much in terms of...
+
+<em>
+((NOTES))
+
 
 - Journalism is in a multi-business model world to stay.
 
 - The solution must work for the widest range of providers possible out of the box. 
 
-
-
-
-
-
-
-
-, based on the premise that they are the true root of most of the professon's other problems. Pretty much everything else improves if journalism is properly resourced and rewarded economically.
-
-The placement of strictly editorial matters outside of scope is, above all, what differentiates this 
-
-The news exchange should:
-
-- Support different kinds of news providers, including existing orgs, new entrants, and individual creators.
-- Support multiple business models. From Gutenberg up to the 1990s, ads dominated 
 - Allow users to log in to their favorite news sites easily. The need to manage relationships with users is crucial, even if the content is free.
-
-Best architechture is probably to use blockchain for identity and payments, including micropayments if necessary. Business logic should be stored off-chain but linked back to it as an artifact.
-
 
 ((Distinguish from Civil))
 
