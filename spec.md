@@ -1,4 +1,4 @@
-# Draft News Exchange Specification
+# News Exchange Specification (Draft)
 
 ### Introduction
 
