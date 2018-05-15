@@ -24,8 +24,7 @@ What's out of scope:
 
 
 
-((Diagram))
-
+<img src="https://pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
 
 
 
@@ -50,6 +49,21 @@ Even the higher spend doesn't get much in terms of...
 - Allow users to log in to their favorite news sites easily. The need to manage relationships with users is crucial, even if the content is free.
 
 ((Distinguish from Civil))
+
+
+### TKTKTK
+
+- Transaction times should be orders of magnitude faster on this proposed system than on Civil. While more testing will be necessary to specify, "10x Rule"... It could be hundreds of times faster, due two factors. First, we're limiting the scope of overall functionality of the system. Second, we're moving a signficant chunk of the remaining functionality to the off-chain DAN, versus Civil's implementation of a "purer" blockchain solution. 
+
+
+- 
+
+
+### Issues
+
+- For some startup news organizations in particular, Civil's use of DAO structures may be valuable. As these organizations, by definition, need to build editorial credibility, the DAO over time may prove to be a useful feature for them. But for larger providers with recognized "brands" among consumers, the DAO structure will likely be just the opposite -- a needless incumberance to blockchain adoption. Similarly, new entrants may be interested and/or fully able to build credibility in other ways. Quartz, TK, and TK, for instance, have had no problem building credibility in recent years, for instance, even without taking votes of their users via the blockchain.
+
+
 
 
 
