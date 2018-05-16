@@ -27,6 +27,51 @@ What's out of scope:
 <img src="https://pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
 
 
+### Links & factoids
+
+
+
+- Halving of journalistic workforce: 
+
+- NY Mag story on McNamee's worries about FB: http://nymag.com/selectall/2018/04/roger-mcnamee-early-facebook-investor-interview.html
+
+- Pew State of the News Media report: http://www.pewresearch.org/topics/state-of-the-news-media/
+
+
+- Dispatch Whitepaper, hosted on .io: https://dispatchlabs.io/wp-content/uploads/2018/03/DispatchWhitepaper_Mar_5_18_v1.55.pdf
+
+
+- Other Dispatch technical docs: https://github.com/dispatchlabs/TechnicalDocs
+
+- Civil whitepaper: https://github.com/joincivil/whitepaper
+
+- Other Civil links...
+  - How it Works summary: https://joincivil.com/how-it-works/
+  - Homepage: https://joincivil.com/
+  - Nieman coverage: http://www.niemanlab.org/2017/10/civil-the-blockchain-based-journalism-marketplace-is-building-its-first-batch-of-publications/
+  - News: http://news.joincivil.com/
+  - Poynter coverage: https://www.poynter.org/news/civil-wants-use-cryptoeconomics-and-blockchain-build-future-news-what
+  - CJR coverage: https://www.cjr.org/business_of_news/civil-says-the-future-of-media-is-blockchains-and-cryptocurrencies.php
+
+
+- 2016 CBC study on funding for public broadcast: A 2016 study of 18 western nations for Canadian public broadcasting showed that the state funding leader was Norway, at more than $134 per person. France spends less than half that, at $54 per capita. At less than a fourth of what Norway pays, Italy spends $28, while our neighbors to the north commit $21. How much does the U.S. spend? Around $2 per person per year – lowest of all countries studied. In fact, the U.S. spent less than 4 percent of the average of the 18 Western nations studied.
+
+https://www.washingtonexaminer.com/what-do-other-countries-know-about-public-broadcasting-that-the-us-doesnt
+
+http://www.cbc.radio-canada.ca/_files/cbcrc/documents/latest-studies/nordicity-public-broadcaster-comparison-2016.pdf
+
+
+
+
+
+- Europe, which has better public funding for media, isn't immune to misninformation either. See https://foreignpolicy.com/2016/11/23/the-eu-moves-to-counter-russian-disinformation-campaign-populism/
+
+
+
+
+- Nieman article on questionable nonprofit scaling: http://www.niemanlab.org/2013/11/what-does-sustainability-look-like-in-nonprofit-journalism/
+
+
 
 
 
@@ -34,29 +79,27 @@ What's out of scope:
 
 ### Why journalism must function commercially
 
+
+Public funding levels...
+
 $1.50...
 $50 in Europe...
+
 Even the higher spend doesn't get much in terms of...
-
-<em>
-((NOTES))
-
 
 - Journalism is in a multi-business model world to stay.
 
-- The solution must work for the widest range of providers possible out of the box. 
-
 - Allow users to log in to their favorite news sites easily. The need to manage relationships with users is crucial, even if the content is free.
 
-((Distinguish from Civil))
 
 
-### TKTKTK
 
-- Transaction times should be orders of magnitude faster on this proposed system than on Civil. While more testing will be necessary to specify, "10x Rule"... It could be hundreds of times faster, due two factors. First, we're limiting the scope of overall functionality of the system. Second, we're moving a signficant chunk of the remaining functionality to the off-chain DAN, versus Civil's implementation of a "purer" blockchain solution. 
+### Advantages
+
+- Transaction times should be orders of magnitude faster on this proposed system than on Civil. While more testing will be necessary to specify, an implementation of the exchange as described herein should easily satisfy Larry Page's "10x Rule"... It could be hundreds of times faster, due two factors. First, we're limiting the scope of overall functionality of the system. Second, we're moving a signficant chunk of the remaining functionality to the off-chain DAN, versus Civil's implementation of a "purer" blockchain solution. 
 
 
-- 
+- Works for a wider range of providers.
 
 
 ### Issues
