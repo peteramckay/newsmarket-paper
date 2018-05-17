@@ -1,24 +1,30 @@
-# News Exchange Specification (Draft)
+# News Exchange Whitepaper (Draft)
 
 ### Introduction
 
 To be strictly accurate, the news business isn’t facing "a crisis" these days. It has <em>crises</em>, plural.
 
-Start with sagging revenues and layoffs at major news organizations due to disruption of their traditional advertising model by Google and Facebook. Then there’s waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online. And, of course, there’s always the parlor game of critiquing the quality of daily coverage in general. Are journalists flat-out missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.
+Start with sagging revenues and layoffs at major news organizations due to disruption of the industry's traditional advertising model by Google and Facebook. Then there’s waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online. And, of course, there’s always the parlor game of critiquing the quality of daily coverage in general. Are journalists flat-out missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.
 
-This document represents an attempt at solving the economic piece of this mess, assuming that it in particular is the root of most of the other issues. Just solve the problem of making journalism commercially viable again, and the whole ecosystem improves significantly in all sorts of ways. 
+This document focuses keenly on the economic piece of the puzzle in particular, under the assumption that part is the root of most of the rest. Just make journalism commercially viable again, and the whole ecosystem improves significantly in all sorts of ways. 
 
-Our proposed vehicle for doing this is a distributed news exchange built using the Dispatch crypto token. This exchange should have the following features: 
+The proposed vehicle for doing this is a distributed news exchange built using the Dispatch blockchain protocol. This exchange should have the following features: 
 
-- <strong>Uses blockchain for managing user identity and payment transfer.</strong> including micro increments if necessary.
-- <strong>Runs news organizations' business logic off-blockchain.</strong> This is accomplished via Dispatch's Distributed Artifact Network. There may be off-the-shelf modules for implementation of, say, a paywall or an ad model or to sell event tickets.
-- <strong>Works for a range of users and news providers.</strong> 
+- <strong>Manages user identity and payment transfer via the blockchain.</strong> Users create an identity that persists across multiple news sites and allows them to pay each publisher according to its particular business model. System will handle micropayments if necessary.
+- <strong>Runs publishers' business logic off-blockchain.</strong> This well be accomplished via Dispatch's Distributed Artifact Network. System should also be flexible to support multiple approaches for publishers to make money. There may be off-the-shelf DAN modules for implementation of, say, a publisher paywall or an advertising model or to sell event tickets. 
+- <strong>Works for a range of users and news providers.</strong> This system is designed to be useful on Day One for incumbent publishers or new entrants, for digital-only shops or legacy publications, for organizations or individual freelancers. Using open-source software from this project, any publisher should be able to set up sign in, payments, and business logic to support their journalism.
 
-What's out of scope: 
+It's also important to note what <em>not</em> in scope here. , as that differentiates this exchange from other attempts to implement block: 
 
 - Hosting news content.
 - Managing user comments or feedback.
 - Managing newsroom governance.
+
+Dieter Rams: "Less, but better."
+
+
+
+
 
 
 
