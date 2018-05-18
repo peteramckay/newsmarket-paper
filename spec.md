@@ -1,9 +1,11 @@
 # News Exchange Whitepaper (Draft)
+<br>
 <em>By Peter A. McKay   
-<a href="https://twitter.com/peteramckay">@peteramckay</a>    
-<a href="mailto:peter@indizr.com">peter@indizr.com</a></em>   
-
-### Introduction
+<a href="https://pmckay.com">Bio</a> | <a href="mailto:peter@indizr.com">Email</a></em> | <a href="https://twitter.com/peteramckay">Twitter</a>         
+<br>
+<hr>
+<br>
+## Introduction
 
 To be strictly accurate, the news business isn’t facing "a crisis" these days. It confronts <em>crises</em>, plural.
 
@@ -45,7 +47,7 @@ Dieter Rams: "Less, but better."
 
 
 
-### Advantages
+## Advantages
 
 - Transaction times should be orders of magnitude faster on this proposed system than on Civil. While more testing will be necessary to specify, an implementation of the exchange as described herein should easily satisfy Larry Page's "10x Rule"... It could be hundreds of times faster, due two factors. First, we're limiting the scope of overall functionality of the system. Second, we're moving a signficant chunk of the remaining functionality to the off-chain DAN, versus Civil's implementation of a "purer" blockchain solution. 
 
@@ -54,11 +56,11 @@ Dieter Rams: "Less, but better."
 - Better user privacy.
 
 
-### Issues
+## Issues
 
 - For some startup news organizations in particular, Civil's use of DAO structures may be valuable. As these organizations, by definition, need to build editorial credibility, the DAO over time may prove to be a useful feature for them. But for larger providers with recognized "brands" among consumers, the DAO structure will likely be just the opposite -- a needless incumberance to blockchain adoption. Similarly, new entrants may be interested and/or fully able to build credibility in other ways. Quartz, TK, and TK, for instance, have had no problem building credibility in recent years, for instance, even without taking votes of their users via the blockchain.
 
-### Footnotes
+## Footnotes
 
 <p><sup>1</sup> TK</p>
 <p><sup>2</sup> TK</p>
