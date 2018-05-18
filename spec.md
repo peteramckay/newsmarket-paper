@@ -29,9 +29,9 @@ The vehicle proposed herein to accomplish that admittedly tall challenge is a di
 - <strong>Works for a range of users and news providers.</strong> This system is designed to be useful on Day One for incumbent publishers or new entrants, for digital-only shops or legacy publications, for organizations or individual freelancers. Using open-source software from this project, any publisher should be able to set up sign in, payments, and business logic to support their journalism.
 
 In action, the exchange should look something like this:
-
-<img src="https://pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
-
+<br />
+<img src="https://pmckay.com/img/ill1.jpeg" alt="illo1" width="100%" height="auto">
+<br />
 It's also important to note what <em>not</em> in scope for the news exchange proposed herein. It doesn't include any features for: 
 
 - Hosting news content.
