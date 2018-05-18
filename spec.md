@@ -1,21 +1,22 @@
-# News Exchange Whitepaper (Draft)
-<br>
-<em>By Peter A. McKay   
+# News Exchange Specification (Draft)
+<br />
+<em>By Peter A. McKay       
 <a href="https://pmckay.com">Bio</a> | <a href="mailto:peter@indizr.com">Email</a></em> | <a href="https://twitter.com/peteramckay">Twitter</a>         
-<br>
-<hr>
-<br>
+<br />
+<hr />
+<br />
+
 ## Introduction
 
-To be strictly accurate, the news business isn’t facing "a crisis" these days. It confronts <em>crises</em>, plural.
+To be strictly accurate, the news business isn't facing "a crisis" these days. It confronts <em>crises</em>, plural.
 
-Start with sagging revenues and layoffs at major news organizations due to disruption of the industry's traditional advertising model by Google and Facebook. Then there's waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online. And, of course, there's always the parlor game of critiquing the quality of daily coverage. Are journalists flat-out missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.
+Start with sagging revenues and layoffs at major news organizations due to disruption of the industry's traditional advertising model by Google and Facebook. Then there's waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online.<sup>1</sup> And, of course, there's always the parlor game of critiquing the quality of daily coverage. Are journalists flat-out missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.
 
 This document focuses keenly on solving the economic piece of the puzzle in particular, under the assumption that part is the root of most of the rest. Just make journalism commercially viable again, and the whole ecosystem improves in all sorts of ways. 
 
-While that might seem an obvious truism to some, it has been flagrantly ignored in the design and execution of most news-industry innovation efforts to date. Such projects tend to focus on <em>newsgathering</em> and <em>storytelling</em> as the functions of news organizations that need better digital tools first. Then monetiztion per se tends to get short shrift, or else it's ceded altogther to third-party tech platforms that may or may not adequately cut publishers in on any resulting revenue.
+While that might seem an obvious notion to some, it has been flagrantly ignored in most news-industry innovation efforts to date. Such projects tend to focus on <em>newsgathering</em> and <em>storytelling</em> as the functions of news organizations that need better digital tools first. Then monetiztion per se tends to get short shrift, or else it's ceded altogther to third-party tech platforms that may or may not adequately cut publishers in on any resulting revenue.
 
-In particular, Silicon Valley has effectively insinuated itself as a middleman in the daily relationship between publisher and news consumer. [TK] Above all, this document represents an attempt to <em>dis</em>intermediate that relationship, allow publishers and their audiences to relate more directly to one another again, and thus allow journalism to be better supported.
+In particular, Silicon Valley has effectively insinuated itself as a middleman in the daily relationship between publisher and news consumer. Above all, this document represents an attempt to <em>dis</em>intermediate that relationship, allow publishers and their audiences to relate more directly to one another again, and thus allow journalism to be better supported.
 
 The vehicle proposed herein to accomplish that admittedly tall challenge is a distributed news exchange to be built using the Dispatch blockchain protocol. The exchange should have the following features: 
 
@@ -26,7 +27,7 @@ The vehicle proposed herein to accomplish that admittedly tall challenge is a di
 
 In action, the exchange should look something like this:
 
-<img src="https://pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
+<img src="//pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
 
 It's also important to note what <em>not</em> in scope for the news exchange proposed herein. It doesn't include any features for: 
 
@@ -34,13 +35,7 @@ It's also important to note what <em>not</em> in scope for the news exchange pro
 - Managing user comments or feedback.
 - Managing newsroom governance.
 
-These functions are all left for news organizations to handle with their existing workflows and technical infrastructure. 
-
-
-
-
-, as that differentiates it significantly from previous attempts at blockchain journalism solutions, particularly the Civil crypto token.
-
+These functions are all left for news organizations to handle with their existing workflows and technical infrastructure. In fact, the above schematic is premised on the definition of a news organzation as <em>a collection of journalists, plus their content.</em>
 
 
 Dieter Rams: "Less, but better."
@@ -50,6 +45,14 @@ Dieter Rams: "Less, but better."
 ## Advantages
 
 - Transaction times should be orders of magnitude faster on this proposed system than on Civil. While more testing will be necessary to specify, an implementation of the exchange as described herein should easily satisfy Larry Page's "10x Rule"... It could be hundreds of times faster, due two factors. First, we're limiting the scope of overall functionality of the system. Second, we're moving a signficant chunk of the remaining functionality to the off-chain DAN, versus Civil's implementation of a "purer" blockchain solution. 
+
+
+Delegated Asynchronous Proof of Stake
+
+https://github.com/dispatchlabs/TechnicalDocs/blob/master/Introduction%20to%20DAPoS.pdf
+
+
+
 
 - Flexibility. 
 
@@ -62,7 +65,7 @@ Dieter Rams: "Less, but better."
 
 ## Footnotes
 
-<p><sup>1</sup> TK</p>
+<p><sup>1</sup> Noah Kulwin's interviews with several former Facebook investors and employees, published in New York magazine April 10, 2018, are instructive on this front. See https://slct.al/2jxIwuY</p>
 <p><sup>2</sup> TK</p>
 <p><sup>3</sup> TK</p>
 
@@ -76,7 +79,6 @@ Some rough notes...
 
 - Halving of journalistic workforce: 
 
-- NY Mag story on McNamee's worries about FB: http://nymag.com/selectall/2018/04/roger-mcnamee-early-facebook-investor-interview.html
 
 - Pew State of the News Media report: http://www.pewresearch.org/topics/state-of-the-news-media/
 
