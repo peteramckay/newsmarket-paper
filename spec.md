@@ -1,7 +1,10 @@
 # News Exchange Specification (Draft)
 <br />
 <em>By Peter A. McKay       
-<a href="https://pmckay.com">Bio</a> | <a href="mailto:peter@indizr.com">Email</a></em> | <a href="https://twitter.com/peteramckay">Twitter</a>         
+
+<a href="https://pmckay.com">Bio</a> | <a href="mailto:peter@indizr.com">Email</a></em> | <a href="https://twitter.com/peteramckay">Twitter</a>     
+
+
 <br />
 <hr />
 <br />
@@ -27,7 +30,7 @@ The vehicle proposed herein to accomplish that admittedly tall challenge is a di
 
 In action, the exchange should look something like this:
 
-<img src="//pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
+<img src="https://pmckay.com/img/illo1.jpg" alt="illo1" width="100%" height="auto">
 
 It's also important to note what <em>not</em> in scope for the news exchange proposed herein. It doesn't include any features for: 
 
