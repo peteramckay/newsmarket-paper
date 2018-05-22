@@ -1,0 +1,176 @@
+<span id="heading"><h1>News Marketplace Whitepaper (Draft)</h1>
+
+<br />
+<br />
+
+<p>By Peter A. McKay <br />
+Email: <a href="mailto:peter@indizr.com">peter@indizr.com</a> <br />
+Twitter: <a href="https://twitter.com/peteramckay">@peteramckay</a></p>
+
+<br />
+<br />
+
+<h2>Contents</h2>
+
+<a href="#intro"><p>Introduction</p></a>
+<a href="#features"><p>Marketplace Features</p></a>
+<a href="#advantages"><p>Advantages</p></a>
+<a href="#issues"><p>Known Issues & Concerns</p></a>
+<a href="#conclusion"><p>Conclusion</p></a>
+<a href="#footnotes"><p>Footnotes</p></a>
+
+
+<br /></span>
+<hr />
+<br />
+
+<h2 id="intro">Introduction</h2>
+
+<p>To be strictly accurate, the news business isn't facing "a crisis" these days. It confronts <em>crises</em>, plural.</p>
+
+<p>Start with sagging revenues and layoffs at news organizations due to disruption of the industry's advertising model by Google and Facebook. Then there's waning public trust in the press, some of it driven by the easy spread of propaganda and misinformation online.<a href="#f1"><sup>1</sup></a> And, of course, there's always the parlor game of critiquing daily coverage. Are journalists missing certain stories? Could they cover some subjects more thoroughly? Are they biased regarding certain sources or topics? And so on.</p>
+
+<p>This document focuses keenly on solving the economic piece of the puzzle, under the assumption that part is the root of most of the rest. <em>Just make journalism commercially viable again, and the whole ecosystem improves in all sorts of ways.</em></p>
+
+<p>While that notion might seem obvious to some readers, it has been flagrantly ignored in most news-industry innovation efforts to date. Such projects tend to focus on newsgathering and content creation as the functions of news organizations that need better digital tools first. (After all, those are the parts journalists tend to gravitate toward naturally and instinctively.) Creating better technology specifically to monetize the content tends to get short shrift, or else the task is ceded altogther to third-party tech platforms that may or may not adequately cut publishers in on any resulting revenue.</p>
+
+<p>In effect, this means the news industry has allowed Silicon Valley to insinuate itself as a middleman in the day-to-day relationship between publisher and news consumer. This is the true existential economic threat to publishing, as it would be in any other business. It is also strictly, if perhaps a bit counterintuitively, <em>not</em> a matter of daily content production.</p>
+
+<p>In other words, to fix monetization, you must innovate on monetization. Full stop.</p>
+
+<p>This draft document represents an attempt at that goal via creation of a new and decentralized digital marketplace for news. It would consist of a series of "distributed apps" that utlize the Dispatch<a href="#f2"><sup>2<sup></a> blockchain and related technologies currently under development.</p>
+
+<br/>
+
+<h4 id="features">Toward a blockchain-based news market</h4>
+
+<p>The blockchain is uniquely suited to address problems like the one described above for news — situations where something cries out to be disintermediated.</p>
+
+<p>With that in mind, the Dispatch-based news marketplace should have the following features:</p>
+
+<p><strong>Manages user identity and payment transfer via the Dispatch blockchain.</strong> Users create an identity that persists across multiple news sites and allows them to pay each publisher according to its particular business model, including micropayments if necessary.</p>
+
+<p><strong>Runs publishers' business logic off-blockchain.</strong> This will be accomplished via Dispatch's Distributed Artifact Network, supporting multiple approaches for publishers to make money. There may be dapps for implementation of, say, a publisher paywall or an advertising model or to sell event tickets. There is no assumption in the design here that there exists a single "silver bullet" type business model that will work for all publishers, as advertising did for over a century before the internet.</p>
+
+<p><strong>Works for a range of users and news providers.</strong> This system is designed to be useful on Day One for incumbent publishers or new entrants, for digital-only or legacy publications, for organizations or individual freelancers. Using open-source software from this project, a publisher of any size should be able to set up a sign-in system, payments, and business logic to support their journalism.</p>
+
+<p>This is what this market would look like in action:</p>
+
+<br />
+
+<img src="https://pmckay.com/img/ill1.jpeg" alt="illo1" width="100%" height="auto" class="illo" id="fig1">
+<p><em>Figure 1</em></p>
+
+<br />
+
+
+<p>It's also important to note what is <em>not</em> in scope for the news marketplace described above. That is a major differentiator for this proposal compared to previous news innovation projects, notably the Civil crypto token expected to launch in summer 2018. <a href="#f3"><sup>3</sup></a></p>
+
+<p>The marketplace structure described above purposefully doesn't include any features for:</p>
+
+<ul>
+ <p><li>Hosting news content.</li></p>
+ <p><li>Managing user comments or feedback.</li></p>
+ <p><li>Managing newsroom governance.</li></p>
+</ul>
+
+<p>These things <em>are</em> all in scope for the Civil project. While Civil's efforts in these content-related areas are undeniably well-intended, and may yield some editorial benefits, they also undeniably add complexity <a href="#f4"><sup>4</sup></a> and will limit the near-term reach of Civil to startup organizations willing to fully host their day-to-day operations "on the blockchain." Such a model is inherently going to be less attractive to incumbents who have pre-existing newsroom workflows they probably won't want to upend.</p>
+
+<p>Perhaps due in part to its larger feature set, the Civil project also entails launch of a distinct CVL token. By comparison, the marketplace proposed herein is built using the main Dispatch token and ecosystem already in the works, targeting a wider community of users and industries around the internet.</p>
+
+
+<br />
+
+<h4 id="advantages">Why this solution is better</h4>
+
+<p>From a publisher standpoint, the market structure proposed herein is designed to sit atop, and complement, the content-production structures that already exist within news organiztions. (Likewise, it is also flexible enough to support startup publications.) In fact, the marketplace schematic drawing shown earlier in <a href="#fig1">figure 1</a> is based on the very definition of a news organzation as <em>a collection of journalists, plus their content.</em></p>
+
+<p>In addition, a Dispatch-based news marketplace would provide the following technical and strategic advantages compared to other tools:</p>
+
+<p><strong>Transaction times should be orders of magnitude, not increments, faster on a Dispatch-based system than on Civil.</strong> While more testing will be necessary to measure the speed boost exactly, this estimate is based on three factors already known:</p>
+
+ <ol>
+   <p><li><em>The Dispatch Virtual Machine.</em> The backbone of the forthcoming Dispatch network, the DVM is based on the Ethereum Virtual Machine. The DVM, however, incorporates its own algorithm, called Delegated Asynchronous Proof-of-Stake<a href="#f5"><sup>5</sup></a>, to significantly streamline verification of transactions on the Dispatch network compared to Ethereum.</li></p>
+   <p><li><em>Limited project scope.</em> Again, the design here purposefully skips content-related features, for the sake of simplicity and breadth of initial user base.</li></p>
+   <p><li><em>The Dispatch Artifact Network.</em> Of the remaining functionality left in scope here, a significant chunk is moved off-blockchain to the DAN, a unique feature of the Dispatch ecosystem. This skips the need for blockchain transaction verifications altogether for many functions.</li></p>
+ </ol>
+
+
+<p><strong>The solution proposed herein achieves a longtime holy grail for publishers: micropayments.</strong> One of Dispatch's main goals is to offer drastically lower transaction fees than existing fiat currency-based payment systems. Coupled with the ability to offer tiny fractions of tokens as payment — a common feature on any crypto network — this system should scalably allow publishers to get paid for single articles or one-time site visits for the first time. <a href="#f6"><sup>6</sup></a></p>
+
+
+<p><strong>A Dispatch-based marketplace would offer greater transparency, including even the underlying algorithm.</strong> This may sound like a small detail, but it is profoundly not: Dispatch's algorithm is <em>published</em>. <a href="#f5"><sup>5</sup></a> For news organizations that have been battered by arbitrary, completely opaque changes to the algorithms of platforms lke Google and Facebook for years, this should be a very welcome change, with major long-term strategic implications. If you have to choose an algo to base your whole business model upon, perhaps it should be one that you and your technical staff can see and evaluate for yourselves. <a href="#f7"><sup>7</sup></a></p>
+
+
+<br />
+
+
+<h4 id="issues">Known Issues & Concerns</h4>
+
+<p>As exciting as the above proposal is, this document is an admittedly early stab at expressing the idea. It will undoubtedly have to be refined from here based upon feedback from developers, journalists, consumers, and other community members.</p>
+
+<p>A few caveats so far:</p>
+
+<ul>
+
+<p><li>The several parts of the Dispatch ecosystem, including the DVM, are still under active development, with launch expected shortly. Any significant changes prior to full public release could affect this project significantly.</li></p>
+
+<p><li>An argument could be made that there should be some sort of dedicated "news token" that would be the basis of the marketplace, akin to the Civil token. This proposal sidestepped that option for the time being, as the proposed interaction with the blockchain seemed pretty straightforward and well within the capabilities of the planned Dispatch token. But a separate ICO could yet be an option to consider, depending on community feedback.</li></p>
+
+<p><li>For some startup news organizations in particular, Civil's use of distributed governance may be valuable. As these organizations, by definition, need to build editorial credibility, Civil's governance model may over time may prove to be a useful feature for them. On the other hand, several digital-native news organizations, includng Quartz, Vice, HuffingtonPost, and others, have been able to build credibility through other means, like social media, that carry less incumberance on management.</li></p>
+
+<p><li>As an Ethereum token, Civil would be compatible with the Dispatch Virtual Machine as well, if its community wanted to port over. This would presumably give Civil a major performance boost, thanks to the DAPoS algorithm. However, it would still have a more bloated (or more "robust," if one wants to be diplomatic) feature set than the marketplace idea described in this document.</li></p>
+
+
+</ul>
+
+
+
+<br />
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>The above is a first-draft attempt at designing a simple but powerful marketplace for news, incorparting blockchain-based features where appropriate. It will undoubtedly be subject to further iteration frome here, with an eye toward helping make news economically viable again, thus better able to serve the needs of free societies.</p>
+<p>Hopefully, as changes are made, they will adhere to the advice of famed industrial designer Dieter Rams: "Less. But better."</p>
+
+
+<br />
+<hr />
+<br />
+
+
+<h4 id="footnotes">Footnotes</h4>
+
+<p><sup id="f1">1</sup> Noah Kulwin's interviews with several former Facebook investors and employees, published in New York magazine, are instructive on this front. See https://slct.al/2jxIwuY (April 2018)</p>
+
+<p><sup id="f2">2</sup> Dispatch Labs whitepaper fully describing their protocol is available for download at https://bit.ly/2GzGseY (March 2018)</p>
+
+<p><sup id="f3">3</sup> Civil whitepaper with full details about that project is at https://bit.ly/2LhgSPN (October 2017)</p>
+
+<p><sup id="f4">4</sup> This problem was described at some length by the Poynter Institute's Daniel Funke at https://bit.ly/2IXN4ZW</p> (June 2017)
+
+<p><sup id="f5">5</sup> See Dispatch co-founder and chief technology officer Zane Withspoon's full documentation of the DAPoS algorithm at https://bit.ly/2wY4mBB (April 2018)</p>
+
+<p><sup id="f6">6</sup> Digiday's Ricard Bilton covered some of the hurdles that have historically tripped up micropayments for news at https://bit.ly/2KGz7gt (April 2015)</p>
+
+<p><sup id="f7">7</sup> Data scientst and author Cathy O'Neil cites opacity as one of the three key defining characteristics of an algorithm that functions as a "weapon of math destruction." See her remarks to Time magazine at https://ti.me/2c5sS5s (August 2016)</p>
+
+<style>
+
+
+  #heading {
+     display: block;
+     text-align: center;
+  }
+
+  hr {background: black;}
+
+  .illo {
+     display: block;
+     max-width: 100%;
+     border: 1px solid black;
+  }
+
+  h1, h2, h3, h4, h5, h6 {font-weight: bold}
+
+</style>
