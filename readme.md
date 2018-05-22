@@ -1,10 +1,8 @@
-# News Marketplace Specification (Draft)
+# News Marketplace Whitepaper (Draft)
 
-This a specification for a better marketplace for digital journalism, incorporating features from the Dispatch blockchain.
+This whitepaper descibes a better marketplace for digital journalism, incorporating features from the Dispatch blockchain.
 
 This repo will eventually include markdown, ODT, PDF, and HTML versions of the document, as well as a few related images.
-
-For now, as the document is still in early draft form, the HTML version is the one I primarily use to make updates as I go. For the very latest tweaks, I'd recommend taking a look at that one.
 
 Cheers,
 
