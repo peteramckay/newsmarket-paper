@@ -154,23 +154,3 @@ Twitter: <a href="https://twitter.com/peteramckay">@peteramckay</a></p>
 <p><sup id="f6">6</sup> Digiday's Ricard Bilton covered some of the hurdles that have historically tripped up micropayments for news at https://bit.ly/2KGz7gt (April 2015)</p>
 
 <p><sup id="f7">7</sup> Data scientst and author Cathy O'Neil cites opacity as one of the three key defining characteristics of an algorithm that functions as a "weapon of math destruction." See her remarks to Time magazine at https://ti.me/2c5sS5s (August 2016)</p>
-
-<style>
-
-
-  #heading {
-     display: block;
-     text-align: center;
-  }
-
-  hr {background: black;}
-
-  .illo {
-     display: block;
-     max-width: 100%;
-     border: 1px solid black;
-  }
-
-  h1, h2, h3, h4, h5, h6 {font-weight: bold}
-
-</style>
